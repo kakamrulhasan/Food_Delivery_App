@@ -12,10 +12,15 @@ class RememberMeCheckbox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center, 
+      mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.max,
       children: [
-        Checkbox(value: value, onChanged: onChanged,activeColor: Colors.deepOrange,hoverColor: Colors.blue.shade100, ),
+        Checkbox(
+          value: value,
+          onChanged: onChanged,
+          activeColor: Colors.deepOrange,
+          hoverColor: Colors.blue.shade100,
+        ),
         const Text('Remember Me'),
       ],
     );

@@ -110,7 +110,7 @@ class _SignupPageState extends State<SignupPage> {
           TextSpan(
             text: ' Sign In',
             style: GoogleFonts.fahkwang(
-              color: Colors.deepOrangeAccent.shade700,
+              color: Colors.redAccent.withOpacity(0.9),
               fontWeight: FontWeight.bold,
             ),
             recognizer: TapGestureRecognizer()

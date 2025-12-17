@@ -15,7 +15,7 @@ class AppButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.deepOrange,
+          backgroundColor:Colors.redAccent.withOpacity(0.8),
           foregroundColor: Colors.black,
           elevation: 6,
           textStyle: TextStyle(fontWeight: FontWeight.bold),

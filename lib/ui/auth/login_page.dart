@@ -102,12 +102,11 @@ class _LoginPageState extends State<LoginPage> {
           TextSpan(
             text: ' Register',
             style: GoogleFonts.fahkwang(
-              color: Colors.deepOrangeAccent.shade700,
+              color:Colors.redAccent.withOpacity(0.9),
               fontWeight: FontWeight.bold,
             ),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                // action here
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (_) => SignupPage()),

@@ -17,7 +17,7 @@ class PageTitle extends StatelessWidget {
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.w700,
-              color: Colors.deepOrange,
+              color: Colors.redAccent.withOpacity(0.9),
             ),
           ),
           if (subtitle != null)

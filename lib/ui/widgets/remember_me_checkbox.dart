@@ -18,7 +18,7 @@ class RememberMeCheckbox extends StatelessWidget {
         Checkbox(
           value: value,
           onChanged: onChanged,
-          activeColor: Colors.deepOrange,
+          activeColor: Colors.redAccent.withOpacity(0.9),
           hoverColor: Colors.blue.shade100,
         ),
         const Text('Remember Me'),
